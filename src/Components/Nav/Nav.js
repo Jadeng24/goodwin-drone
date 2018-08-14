@@ -16,11 +16,11 @@ class Nav extends Component {
         return (
             <div className='Nav'>
                 <div className="navBtns flexCenter">
-
-
-                    <Link to="/"> <div className="navButton flexCenter">
-                        <img src={GDlogo} alt="logo" className='gdLogo'/>
+                    <Link to="/" className="LogoLink"> <div className="navButton flexCenter">
+                        <img src={GDlogo} alt="logo" className='gdLogo' />
                     </div></Link>
+
+                    
                     <Link to="/drone"><div className="navButton flexCenter">
                         <h1>Drone</h1>
                         <FontAwesomeIcon

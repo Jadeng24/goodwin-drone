@@ -1,0 +1,20 @@
+.Home {
+    background: rgb(73, 191, 255);
+    width: 100vw;
+    min-height: 200vh;
+    padding: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HomeContent {
+    width: 100%;
+    min-height: 200vh;
+    background: #272727;
+}
+.greyTriangle {
+    width: 0;
+	height: 0;
+	border-top: 50vh solid #393939;
+	border-right: 94vw solid transparent;
+}
