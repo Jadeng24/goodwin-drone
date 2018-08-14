@@ -1,0 +1,35 @@
+.Footer {
+    align-self: flex-end;
+    border-bottom: 125px solid #272727;
+	border-left: 75px solid transparent;
+	border-right: 0px solid transparent;
+    width: 60vw;
+    margin-top: 50px;
+    border-top-right-radius: 2px;
+    min-width: calc(480px + 75px - 3vw);
+}
+.FooterBtns {
+    height: 100px;
+    width:100%;
+}
+
+ /* Tablets */
+@media (max-width: 480px) {
+    .Footer {
+        width: 100%;
+        background: none;
+        border: none;
+        margin-top: 150px;
+        min-width: 0px;
+    }
+    .FooterBtns {
+        width: 100%;
+        height: 125px;
+        background: #272727;
+        /* transition: .3s; */
+    }
+}
+
+/* Smartphones */
+@media (max-device-width : 480px) {
+}
