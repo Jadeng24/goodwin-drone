@@ -11,6 +11,8 @@
 .FooterBtns {
     height: 100px;
     width:100%;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
 }
 
  /* Tablets */
